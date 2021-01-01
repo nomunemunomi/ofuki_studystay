@@ -5,7 +5,14 @@
 }
 
 @media (max-width: 670px ){
+  .top h1{
+    font-size: 30px;
+  
   .icon{
+    width: 100%;
+  }
+  
+  .icon2{
     width: 100%;
   }
 

@@ -5,6 +5,15 @@
 }
 
 @media (max-width: 670px ){
+  
+  .hirakawasan{
+    width: 50%;
+  }
+
+  .maru{
+    float: none;
+  }
+  
   .top h1{
     font-size: 30px;
     }

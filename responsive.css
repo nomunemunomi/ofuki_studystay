@@ -12,12 +12,10 @@
   }
 
   .hirakawasan{
-    width: 100%;
+    width: 75%;
   }
 
   .maru{
-    float: none;
-    overflow: hidden;
     text-align: center;
     margin: 0 auto;
     padding-top: 25px;
@@ -27,16 +25,22 @@
     font-size: 30px;
     }
 
+   /* .ofuki-wrapper{
+      display:flex;
+      flex-direction: column;
+    }*/
+
     .ofuki{
       width: 100%;
-      
+      order:2;
     }
 
    .yama{
       width: 75%;
       margin: 0 auto;
       text-align: center;
-      overflow: hidden;
+
+     order: 1;
       
     }
 
@@ -44,11 +48,18 @@
       width: 75%;
       margin: 0 auto;
       text-align: center;
-      overflow: hidden;
+
     }
 
     .fureai-2{
       width: 100%;
+    }
+
+    .house{
+      border-bottom: 1px solid;
+        border-color:#C0C0C0;
+        padding-bottom: 250px;
+        
     }
 
     .house-2{
@@ -59,7 +70,7 @@
       width: 75%;
       margin: 0 auto;
       text-align: center;
-      overflow: hidden;
+
     }
   
   .icon{
@@ -71,8 +82,7 @@
   }
 
   .content{
-    padding : 25px;
+    padding : 50px;
   }
 
 
-}

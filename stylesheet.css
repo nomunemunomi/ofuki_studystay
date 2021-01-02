@@ -333,6 +333,20 @@ margin-left: 100px;
   box-shadow: 2px 2px 2px ;
 }
 
+.note{
+  margin: 20px 0;
+  padding: 10px 30px;
+  background-color: #FFFFCC;
+  text-align: center;
+
+  }
+
+  .note:active{
+    box-shadow: none;
+    position: relative;
+    top: 2px;
+  }
+
 .oubo{
 margin: 20px 0;
 padding: 10px 30px;
@@ -347,7 +361,7 @@ background-color: #CCFFCC;
 }
 
 footer{
-  padding: 100px;
+  padding: 100px 0;
   text-align: center;
   background-color: #EEEEEE	;
 }
@@ -368,3 +382,8 @@ footer{
   padding-top: 100px;
   padding-bottom: 100px;*/
 }
+
+
+  
+
+

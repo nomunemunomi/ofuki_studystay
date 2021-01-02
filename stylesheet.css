@@ -76,6 +76,7 @@ a {
   .introduction{
     border-bottom: 1px solid;
     border-color:#C0C0C0;
+
   }
 
 .maru{
@@ -92,16 +93,25 @@ a {
 .ofuki-wrapper{
   display: flex;
 
+
 }
 
 .fureai-wrapper{
   display: flex;
+
 
 }
 
 .house-wrapper{
   display: flex;
 
+
+}
+
+.ishizuchi{
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .ofuki{
@@ -134,7 +144,7 @@ a {
 }*/
 
 .fureai{
-  
+  padding: 100px ;
 }
 
 .sato {
@@ -156,7 +166,11 @@ a {
   border-bottom: 1px solid;
     border-color:#C0C0C0;
     padding-bottom: 100px;
+   /* padding-bottom: 100px;*/
     /*margin-bottom: 100px;*/
+    padding-bottom: 100px;
+      padding-right: 100px;
+      padding-left: 100px;
 }
 
 /*.content3 {
@@ -167,20 +181,25 @@ a {
 
 .house-2{
  /* display: inline-block;*/
-  float: left;
+ /* float: left;*/
   width: 40%;
   padding: 150px 0;
+
 }
 
 .hi {
  /* display: inline-block;*/
-  float: right;
-  margin-left: 100px;
+/*float: right;*/
+margin-left: 100px;
+
+
+
 }
 
 .studystay h1 {
   letter-spacing: 10;
   text-align: center;
+  padding-top: 50px;
 }
 
 .studystay h2{
@@ -188,6 +207,7 @@ a {
   text-align: center;
   letter-spacing: 5;
   margin-top: 5px;
+  padding-bottom: 50px;
 }
 
 /*.content4{
@@ -246,11 +266,11 @@ a {
 .kikaku{
   border-top: 1px solid;
     border-color:#C0C0C0;
-    padding: 100px 0;
+   
   border-bottom: 1px solid;
     border-color:#C0C0C0;
-    padding: 50px 0;
-padding: 100px;
+    
+
 }
 
 .kikaku h3{
@@ -295,11 +315,7 @@ padding: 100px;
   font-size: 14px;
 }
 
-.content2{
-  padding: 100px;
-  /*overflow: hidden; */
-  clear: both; 
-}
+
 
 .form{
   border-top: 1px solid;
@@ -339,4 +355,21 @@ footer{
   padding: 100px;
   text-align: center;
   background-color: #EEEEEE	;
+}
+
+.content2{
+  /*padding-right: 100px;*/
+  /*padding-left: 100px;*/
+  /*padding-bottom: 100px;*/
+}
+
+/*.content{
+  padding: 0 50px;
+}*/
+
+/*.content3{
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;*/
 }

@@ -37,16 +37,19 @@
     margin: 0 auto;
   }
 
-  .maru{
+.maru{
     /*text-align: center;*/
     margin: 0 auto;
    padding-top: 50px;
    padding-right: 50px;
    padding-left:50px;
+   width: 90%;
+   margin-left: 0px;
 
    /*margin-top: 50px;*/
-    
   }
+  
+  
   .top h1{
     font-size: 30px;
     }

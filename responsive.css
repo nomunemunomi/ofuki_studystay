@@ -4,15 +4,33 @@
 }
 }
 
-@media (max-width: 670px ){
+@media (max-width: 767px ){
 
   body{
     width: 100%;
     margin: 0 auto;
   }
 
+  .top-wrapper{
+    height: 50%;
+  }
+
+  .top{
+    padding: 140px 0;
+  }
+
+  .first{
+
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
   .hirakawasan{
     width: 75%;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .maru{
@@ -25,14 +43,29 @@
     font-size: 30px;
     }
 
-   /* .ofuki-wrapper{
-      display:flex;
+
+    .ofuki-wrapper{
+      display: flex;
       flex-direction: column;
-    }*/
+      padding: 10px 0;
+    }
+    
+    .fureai-wrapper{
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+    }
+    
+    .house-wrapper{
+      display: flex;
+      flex-direction: column;
+      padding: 10px 0;
+    }
 
     .ofuki{
       width: 100%;
       order:2;
+    
     }
 
    .yama{
@@ -53,24 +86,21 @@
 
     .fureai-2{
       width: 100%;
+      margin-left: 0px;
+      padding-bottom: 25px;
     }
 
-    .house{
-      border-bottom: 1px solid;
-        border-color:#C0C0C0;
-        padding-bottom: 250px;
-        
-    }
 
     .house-2{
       width: 100%;
+      order:2;
     }
 
     .hi{
       width: 75%;
       margin: 0 auto;
       text-align: center;
-
+     order: 1;
     }
   
   .icon{
@@ -85,4 +115,8 @@
     padding : 50px;
   }
 
+
+
+
+}
 

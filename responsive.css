@@ -37,14 +37,24 @@
   }
 
   .maru{
-    text-align: center;
+    /*text-align: center;*/
     margin: 0 auto;
-    padding: 0px;
-    margin-top: 50px;
+   padding-top: 50px;
+   padding-right: 50px;
+   padding-left:50px;
+  width: 100%;
+  height: 100%;
+   /*margin-top: 50px;*/
     
   }
   .top h1{
     font-size: 30px;
+    }
+
+    .ishizuchi{
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
     }
 
 
@@ -98,10 +108,20 @@
 
     }
 
+    .fureai{
+      padding: 50px;
+    }
+
     .fureai-2{
       width: 100%;
       margin-left: 0px;
       padding: 50px 0;
+    }
+
+    .house{
+      padding-bottom: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
     }
 
 
@@ -130,13 +150,39 @@
     padding : 50px;
   }
 
+  /*.content2{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }*/
+
+  .content1{
+    padding: 0 50px;
+  }
+
+  .content3{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .taizai-img{
     width: 90%;
   }
 
 .studystay h1{
-  font-size: 24px;
+  font-size: 20px;
 }
+
+.studystay h2{
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 5;
+  margin-top: 5px;
+}
+
+
 
 
 }

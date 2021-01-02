@@ -1,7 +1,11 @@
 @media (max-width: 1000px) {
-.icon{
-  width: 50%;
-}
+  .icon{
+    width: 50%;
+  }
+  
+  .icon2{
+    width: 50%;
+  }
 }
 
 @media (max-width: 767px ){
@@ -20,7 +24,6 @@
   }
 
   .first{
-
     display: flex;
     flex-direction: column;
   }
@@ -28,7 +31,7 @@
 
 
   .hirakawasan{
-    width: 75%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
   }
@@ -36,7 +39,8 @@
   .maru{
     text-align: center;
     margin: 0 auto;
-    padding-top: 25px;
+    padding: 0px;
+    margin-top: 50px;
     
   }
   .top h1{
@@ -65,20 +69,30 @@
     .ofuki{
       width: 100%;
       order:2;
-    
+      padding: 50px 0;
     }
 
+    .ofuki h1{
+      font-size: 9px;
+      padding-left: 235px;
+    }
+
+    .ofuki h2{
+      font-size: 20px;
+    }
+
+    
+
    .yama{
-      width: 75%;
+      width: 90%;
       margin: 0 auto;
       text-align: center;
-
      order: 1;
       
     }
 
     .sato{
-      width: 75%;
+      width: 90%;
       margin: 0 auto;
       text-align: center;
 
@@ -87,17 +101,18 @@
     .fureai-2{
       width: 100%;
       margin-left: 0px;
-      padding-bottom: 25px;
+      padding: 50px 0;
     }
 
 
     .house-2{
       width: 100%;
       order:2;
+      padding: 50px 0;
     }
 
     .hi{
-      width: 75%;
+      width: 90%;
       margin: 0 auto;
       text-align: center;
      order: 1;
@@ -115,7 +130,13 @@
     padding : 50px;
   }
 
+  .taizai-img{
+    width: 90%;
+  }
 
+.studystay h1{
+  font-size: 24px;
+}
 
 
 }

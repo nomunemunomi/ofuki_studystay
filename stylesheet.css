@@ -68,12 +68,8 @@ a {
   }
 
 .first{
-  padding: 100px;
   display: flex;
-}
-
-.second{
-  float: right;
+  padding: 100px 0;
 }
 
 
@@ -83,7 +79,7 @@ a {
   }
 
 .maru{
-  margin-left: 150px; 
+  margin-left: 100px; 
   width: 100%
 }
 
@@ -191,6 +187,7 @@ a {
   font-size: 18px;
   text-align: center;
   letter-spacing: 5;
+  margin-top: 5px;
 }
 
 /*.content4{
@@ -343,4 +340,3 @@ footer{
   text-align: center;
   background-color: #EEEEEE	;
 }
-
